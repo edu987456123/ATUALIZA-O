@@ -23,9 +23,9 @@ if not getgenv().Aimbot then
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "Menu Mini City Destroyer Cracked",
-    LoadingTitle = "MMD Cracked",
-    LoadingSubtitle = "Cracked",
+    Name = "Destruindo Mini City ( Ninja Menu )",
+    LoadingTitle = "Ninja HUB",
+    LoadingSubtitle = "Privado",
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "AimbotConfig",
