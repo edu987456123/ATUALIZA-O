@@ -149,7 +149,7 @@ end
 
 
 local VisualTab = Window:CreateTab("Visual")
-local Paragraph = VisualTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por carplacer & equipe MMD"})
+local Paragraph = VisualTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por ninja"})
 -- Função para carregar o script
 local function loadScript()
    local Players = game:GetService("Players")
@@ -484,7 +484,7 @@ VisualTab:CreateToggle({
 
 
 local TeleportTab = Window:CreateTab("Teleports")
-local Paragraph = TeleportTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por carplacer & equipe MMD"})
+local Paragraph = TeleportTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por ninja"})
 
 
 local Section = TeleportTab:CreateSection("TELEPORTS")
@@ -520,7 +520,7 @@ addTeleportButton("Teleport predio 1", CFrame.new(-1595.23328, 204.074341, 555.8
 addTeleportButton("Teleport Devs Mini City", CFrame.new(2555.44263, 303.167755, -1004.13763, -0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, -0.422592998))
 
 local rev = Window:CreateTab("Revistar")
-local Paragraph = rev:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por carplacer & equipe MMD"})
+local Paragraph = rev:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por ninja"})
 local Section = rev:CreateSection("NECESSARIO")
 local Button = rev:CreateButton({
    Name = "puxa itens",
@@ -536,7 +536,7 @@ local function deletarNotifyGui()
 end
 
 -- Lista de itens para pegar
-local itens = {"AK47", "Uzi", "Parafal", "Faca", "IA2", "G3", "IPhone 14", "Agua", "Hamburguer", "Hi Power", "Natalina", "Tratamento", "Glock", "AR-15", "Escudo", "Skate", "Xbox", "HK416", "C4", "Lock Pick", "Planta Limpa", "Planta Suja"}
+local itens = {"AK47", "Uzi", "Parafal", "Faca", "IA2", "G3", "IPhone 14", "Agua", "Hamburguer", "Hi Power", "Natalina", "Tratamento", "Glock", "AR-15", "Escudo", "Skate", "Xbox", "HK416", "C4", "Lock Pick", "Planta Limpa", "Planta Suja", "Iphone 14"}
 
 -- Argumentos para a requisição
 local args = {
@@ -650,14 +650,14 @@ RevistarButton.Parent = Frame
    end,
 })
 local Section = rev:CreateSection("Info")
-local Paragraph = rev:CreateParagraph({Title = "Como usar?", Content = "Ensinamos a usar corretamente no nosso discord."})
+local Paragraph = rev:CreateParagraph({Title = "Como usar?", Content = "Ensinamos a usar corretamente no nosso discord, https://discord.gg/MyZ2eb6x"})
 
 
 
 local otoTab = Window:CreateTab("Outros")
-local Paragraph = otoTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por carplacer & equipe MMD"})
+local Paragraph = otoTab:CreateParagraph({Title = "NINJA NO TOPO", Content = "feito por ninja"})
 local Toggle = otoTab:CreateToggle({
-    Name = "anti staff V2",
+    Name = "anti staff V2 (da kick quando entra staff)",
     CurrentValue = false,
     Flag = "ToggleKickCheck",
     Callback = function(Value)
