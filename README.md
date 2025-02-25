@@ -894,3 +894,14 @@ AutoFarmTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/offbernardo/Mini-City/refs/heads/main/Gari"))()
     end,
 })
+
+local AutoFarmTab = Window:CreateTab("Uteis")
+
+
+AutoFarmTab:CreateButton({
+    Name = "Fly",
+    Callback = function()
+        -- Executa o loadstring para ativar o script de Auto Farm
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    end,
+})
