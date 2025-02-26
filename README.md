@@ -895,9 +895,6 @@ AutoFarmTab:CreateButton({
     end,
 })
 
-local AutoFarmTab = Window:CreateTab("Uteis")
-
-
 AutoFarmTab:CreateButton({
     Name = "Fly",
     Callback = function()
