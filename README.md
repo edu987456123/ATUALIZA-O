@@ -902,15 +902,3 @@ AutoFarmTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
     end,
 })
-
-AutoFarmTab:CreateButton({
-    Name = "Fly",
-    Callback = function()
-    if ArmaSelecionada then
-        for _, ferramenta in ipairs(game:GetDescendants()) do
-            if ferramenta:IsA("Tool") and ferramenta.Name == ArmaSelecionada then
-                ferramenta.Parent = game.Players.LocalPlayer.Backpack
-            end
-        end
-    end
-end)
